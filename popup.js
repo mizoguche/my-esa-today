@@ -32,7 +32,6 @@ function fetch(date){
     type: 'GET',
     headers: { 'Authorization': 'Bearer ' + token },
     success: function(result){
-        console.log(result.posts);
       var copyString = '';
       for(var i = 0; i < result.posts.length; i++){
         var post = result.posts[i];

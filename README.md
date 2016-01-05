@@ -3,7 +3,7 @@ My Qiita:Team Today
 
 Installation
 ---
-Download `my-qiita-team-today.crx` from [Releases](https://github.com/mizoguche/my-qiita-team-today/releases) and open to install.
+Download `my-qiita-team-today.crx` from [Releases](https://github.com/mizoguche/my-esa-today/releases) and open to install.
 
 Usage
 ---

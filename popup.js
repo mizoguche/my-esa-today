@@ -26,7 +26,7 @@ function fetch(date){
   }
 
   var dateString = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
-  var url = 'https://api.esa.io/v1/teams/' + team + '/posts?q=@' + screenname + '+updated:>' + dateString;
+  var url = 'https://api.esa.io/v1/teams/' + team + '/posts?q=@' + screenname + '+updated:>=' + dateString;
   $.ajax({
     url: url,
     type: 'GET',

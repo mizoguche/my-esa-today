@@ -3,7 +3,7 @@
 
   "name": "My esa.io Today",
   "description": "Copy links to posts posted to esa.io today.",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "browser_action": {
     "default_title": "My esa.io Today",
